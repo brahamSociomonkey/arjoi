@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import ProjectItem from "../mini-comps/ProjectItem";
+import ProjectItem from "./mini-comps/ProjectItem";
 
 const Projects = ({ data }) => {
   const { dataForProjects } = data;

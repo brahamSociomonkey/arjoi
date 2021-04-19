@@ -3,21 +3,21 @@ import { HashLink as Link } from "react-router-hash-link";
 import DisplayImg from "../../Utilities/mini-comps/DisplayImg";
 import HeroImgWithTxt from "../../Utilities/mini-comps/HeroImgWithTxt";
 
-const RealEstate = () => {
+const Retail = () => {
   const dataForHeroImg = {
-    heading: "REAL ESTATE",
+    heading: "RETAIL",
     content:
       "The Arjoi story in infrastructure began much before Independence. Today, the group is a multi-faceted player in energy, infrastructure, and realty.",
-    img: "/assets/pages/business/realestate/hero-img.png",
-    mobImg: "/assets/pages/business/realestate/hero-img.png",
+    img: "/assets/pages/business/retail/hero-img.png",
+    mobImg: "/assets/pages/business/retail/hero-img.png",
   };
-  const developersDisplayImgData = {
-    img: "/assets/pages/business/realestate/developers.png",
-    mobImg: "/assets/pages/business/realestate/developers.png",
+  const martDisplayImgData = {
+    img: "/assets/pages/business/retail/mart.png",
+    mobImg: "/assets/pages/business/retail/mart.png",
   };
 
   return (
-    <div className="page-business-realestate page-business">
+    <div className="page-business-retail page-business">
       {/* hero img with text  */}
       <HeroImgWithTxt data={dataForHeroImg} />
 
@@ -70,15 +70,15 @@ const RealEstate = () => {
         </div>
         <br />
 
-        {/* developers  */}
-        <div className="developers">
+        {/* mart  */}
+        <div className="mart">
           <h3 className="secondary-font heading-with-top-bottom-lines">
-            Arjoi Developers
+            Arjoi Mart
           </h3>
 
           <div className="img-link-container">
             <Link to="/">
-              <DisplayImg data={developersDisplayImgData} />
+              <DisplayImg data={martDisplayImgData} />
             </Link>
           </div>
         </div>
@@ -87,4 +87,4 @@ const RealEstate = () => {
   );
 };
 
-export default RealEstate;
+export default Retail;

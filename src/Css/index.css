@@ -45,7 +45,7 @@ header nav .logo-container img {
   max-height: 5rem;
 }
 
-header nav ul {
+header nav .main-links-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,12 +60,48 @@ header nav ul {
           justify-content: center;
 }
 
-header nav ul .menu-container {
+header nav .main-links-container .menu-container {
   display: inline;
 }
 
-header nav ul li img {
+header nav .main-links-container li img {
   min-width: 2rem;
+}
+
+header nav .has-sublinks {
+  position: relative;
+  cursor: pointer;
+}
+
+header nav .has-sublinks ul {
+  position: absolute;
+  height: 0;
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+  margin: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+header nav .has-sublinks ul li {
+  margin-top: 0.5rem;
+}
+
+header nav .has-sublinks:focus ul, header nav .has-sublinks:hover ul {
+  padding: 1rem;
+  opacity: 1;
+  pointer-events: all;
+  height: revert;
 }
 
 @media (max-width: 750px) {
@@ -421,6 +457,164 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
+}
+
+.page-business .hero-img-with-txt {
+  position: relative;
+}
+
+.page-business .hero-img-with-txt .img-container {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.page-business .hero-img-with-txt .txt-container {
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  max-width: 50ch;
+}
+
+.page-business .hero-img-with-txt .txt-container h2 {
+  font-family: "Bjorn Regular";
+}
+
+.page-business .hero-img-with-txt .txt-container h2::before {
+  content: "";
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  height: 1.5rem;
+  width: 0.8rem;
+}
+
+.page-business .hero-img-with-txt .txt-container > * {
+  margin: 0;
+}
+
+.page-business .page-content {
+  padding: 0 5% !important;
+}
+
+.page-business .page-content h3 {
+  margin: 3rem 0;
+}
+
+.page-business .page-content .rte {
+  max-width: 1000px;
+  margin: 0;
+}
+
+.page-business .page-content .img-link-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.page-business .page-content .img-link-container a::after {
+  background-color: rgba(255, 255, 255, 0.3);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: translate(0);
+          transform: translate(0);
+  height: auto;
+}
+
+.page-business .image-grid-area .images-grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1.5fr 0.5fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template: 1.5fr 0.5fr 1fr /1fr 1fr;
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 5%;
+  grid-auto-flow: dense;
+}
+
+.page-business .image-grid-area .images-grid-container .images-grid-item {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.page-business .image-grid-area .images-grid-container .images-grid-item .img-container {
+  height: 100%;
+}
+
+.page-business .image-grid-area .images-grid-container .images-grid-item .txt-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  opacity: 0;
+  color: #fff;
+  z-index: 5;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+.page-business .image-grid-area .images-grid-container .images-grid-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 0%;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.page-business .image-grid-area .images-grid-container .images-grid-item:hover .txt-container, .page-business .image-grid-area .images-grid-container .images-grid-item:focus .txt-container {
+  opacity: 1;
+}
+
+.page-business .image-grid-area .images-grid-container .images-grid-item:hover::after, .page-business .image-grid-area .images-grid-container .images-grid-item:focus::after {
+  height: 100%;
+}
+
+.page-business .image-grid-area .images-grid-container .images-grid-item-0 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1/3;
+}
+
+.page-business .image-grid-area .images-grid-container .images-grid-item-1 {
+  grid-column: 2/-1;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.page-business .image-grid-area .images-grid-container .images-grid-item-2 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  grid-row: 3/-1;
+}
+
+.page-business .image-grid-area .images-grid-container .images-grid-item-3 {
+  grid-column: 2/-1;
+  grid-row: 2/-1;
 }
 
 footer {

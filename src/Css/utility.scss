@@ -117,7 +117,8 @@ address {
   font-style: normal;
 }
 
-a {
+a,
+.nav-link-item {
   text-decoration: none;
   color: $links-color;
   display: inline-block;
@@ -420,8 +421,6 @@ a {
           outline: none;
           background-color: white;
 
-         
-
           &:hover,
           &:focus {
             color: #fff;
@@ -501,5 +500,50 @@ a {
       transform: translate(-50%, -50%);
       animation: scroll-fade-up 2s ease infinite;
     }
+  }
+}
+
+// heading-with-top-bottom-lines
+.heading-with-top-bottom-lines {
+  position: relative;
+  margin: 2rem 0;
+  max-width: 45ch;
+
+  &::after,
+  &::before {
+    position: absolute;
+    left: 0;
+    content: "";
+    display: block;
+    background: #ef9360;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 20rem;
+    height: 0.5rem;
+  }
+
+  &::before {
+    top: -1rem;
+  }
+
+  &::after {
+    bottom: -1rem;
+    max-width: 15rem;
+  }
+}
+
+// custom-bullet
+.custom-bullet {
+  padding-left: 2rem;
+
+  &::before {
+    content: "";
+    background-color: #000;
+    display: inline-block;
+    border-radius: 4px;
+    margin-right: 1rem;
+    margin-left: -2rem;
+    height: 1.5rem;
+    width: 0.8rem;
   }
 }

@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
-import { Link } from "react-router-dom";
-import HamIcon from "./mini-comps/HamIcon";
+import { HashLink as Link } from "react-router-hash-link";
+import HamIcon from "./Utilities/mini-comps/HamIcon";
 
 export const Header = () => {
   const headerRef = useRef(null);
@@ -11,11 +11,11 @@ export const Header = () => {
     if (headerRef.current.classList.contains("hide")) {
       target.classList.add("opened");
       target.setAttribute("aria-expanded", target.classList.contains("opened"));
-        headerRef.current.classList.toggle("hide");
+      headerRef.current.classList.toggle("hide");
     } else {
       target.classList.remove("opened");
       target.setAttribute("aria-expanded", target.classList.contains("opened"));
-        headerRef.current.classList.toggle("hide");
+      headerRef.current.classList.toggle("hide");
     }
   };
 
@@ -39,23 +39,46 @@ export const Header = () => {
         <nav>
           <div className="nav-link-item">
             <Link onClick={handleLinkClick} className="logo-container" to="/">
-              <img src="./assets/logo.png" alt="Arjoi logo"></img>
+              <img src="/assets/logo.png" alt="Arjoi logo"></img>
             </Link>
           </div>
-          <ul>
+          <ul className="main-links-container">
             <li className="nav-link-item">
               <Link onClick={handleLinkClick} className="nav-link" to="/about">
                 ABOUT
               </Link>
             </li>
-            <li className="nav-link-item">
-              <Link
-                onClick={handleLinkClick}
-                className="nav-link"
-                to="/businesses"
-              >
-                BUSINESSES
-              </Link>
+            <li className="nav-link-item has-sublinks">
+              BUSINESSES
+              <ul>
+                <li className="nav-link-item">
+                  <Link
+                    onClick={handleLinkClick}
+                    className="nav-link"
+                    to="/business/realestate"
+                  >
+                    REAL ESTATE
+                  </Link>
+                </li>
+                <li className="nav-link-item">
+                  <Link
+                    onClick={handleLinkClick}
+                    className="nav-link"
+                    to="/business/retail"
+                  >
+                    RETAIL
+                  </Link>
+                </li>
+                <li className="nav-link-item">
+                  <Link
+                    onClick={handleLinkClick}
+                    className="nav-link"
+                    to="/business/community"
+                  >
+                    COMMUNITY
+                  </Link>
+                </li>
+              </ul>
             </li>
             <li className="nav-link-item">
               <Link onClick={handleLinkClick} className="nav-link" to="/media">
@@ -86,7 +109,7 @@ export const Header = () => {
                 className="menu-container"
                 to="/lol"
               >
-                <img src="./assets/menu.png" alt="menu"></img>
+                <img src="/assets/menu.png" alt="menu"></img>
               </Link>
             </li>
           </ul>

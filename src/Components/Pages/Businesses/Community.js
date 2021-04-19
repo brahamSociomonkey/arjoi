@@ -2,24 +2,49 @@ import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import DisplayImg from "../../Utilities/mini-comps/DisplayImg";
 import HeroImgWithTxt from "../../Utilities/mini-comps/HeroImgWithTxt";
+import ImagesGrid from "../../Utilities/mini-comps/ImagesGrid";
 
-const RealEstate = () => {
+const Community = () => {
   const dataForHeroImg = {
-    heading: "REAL ESTATE",
+    heading: "COMMUNITY",
     content:
       "The Arjoi story in infrastructure began much before Independence. Today, the group is a multi-faceted player in energy, infrastructure, and realty.",
-    img: "/assets/pages/business/realestate/hero-img.png",
-    mobImg: "/assets/pages/business/realestate/hero-img.png",
+    img: "/assets/pages/business/community/hero-img.png",
+    mobImg: "/assets/pages/business/community/hero-img.png",
   };
-  const developersDisplayImgData = {
-    img: "/assets/pages/business/realestate/developers.png",
-    mobImg: "/assets/pages/business/realestate/developers.png",
+  const communityDisplayImgData = {
+    img: "/assets/pages/business/community/foundation.png",
+    mobImg: "/assets/pages/business/community/foundation.png",
   };
 
+  const dataForImagesGrid = [
+    {
+      image: "/assets/pages/business/community/grid-education.png",
+      txt: "EDUCATION",
+    },
+    {
+      image: "/assets/pages/business/community/grid-2.png",
+      txt: "text 2",
+    },
+    {
+      image: "/assets/pages/business/community/grid-3.png",
+      txt: "text 3",
+    },
+    {
+      image: "/assets/pages/business/community/grid-4.png",
+      txt: "text 4",
+    },
+  ];
+
   return (
-    <div className="page-business-realestate page-business">
+    <div className="page-business-community page-business">
       {/* hero img with text  */}
       <HeroImgWithTxt data={dataForHeroImg} />
+
+      {/* Images grid area  */}
+      <section className="image-grid-area">
+        <ImagesGrid dataForImagesGrid={dataForImagesGrid} />
+      </section>
 
       <section className="page-content">
         {/* infrastructure */}
@@ -70,15 +95,15 @@ const RealEstate = () => {
         </div>
         <br />
 
-        {/* developers  */}
-        <div className="developers">
+        {/* community  */}
+        <div className="community">
           <h3 className="secondary-font heading-with-top-bottom-lines">
-            Arjoi Developers
+            Arjoi Foundation
           </h3>
 
           <div className="img-link-container">
             <Link to="/">
-              <DisplayImg data={developersDisplayImgData} />
+              <DisplayImg data={communityDisplayImgData} />
             </Link>
           </div>
         </div>
@@ -87,4 +112,4 @@ const RealEstate = () => {
   );
 };
 
-export default RealEstate;
+export default Community;

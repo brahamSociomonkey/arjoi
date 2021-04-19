@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import DisplayImg from "../mini-comps/DisplayImg";
-import NewsLetter from "../mini-comps/NewsLetter";
-import ScrollIndicator from "../mini-comps/ScrollIndicator";
-import Timeline from "../mini-comps/Timeline";
+import { HashLink as Link } from "react-router-hash-link";
+import DisplayImg from "../Utilities/mini-comps/DisplayImg";
+import NewsLetter from "../Utilities/mini-comps/NewsLetter";
+import ScrollIndicator from "../Utilities/mini-comps/ScrollIndicator";
+import Timeline from "../Utilities/mini-comps/Timeline";
 import HeroSlider from "../Utilities/HeroSlider";
 import Projects from "../Utilities/Projects";
 import SliderContainer from "../Utilities/SliderContainer";
@@ -20,42 +20,42 @@ const Home = () => {
 
   const dataHeroSlider = [
     {
-      img: "./assets/pages/home/hero-slider-1.png",
-      mobImg: "./assets/pages/home/hero-slider-1.png",
+      img: "/assets/pages/home/hero-slider-1.png",
+      mobImg: "/assets/pages/home/hero-slider-1.png",
     },
     {
-      img: "./assets/pages/home/hero-slider-1.png",
-      mobImg: "./assets/pages/home/hero-slider-1.png",
+      img: "/assets/pages/home/hero-slider-1.png",
+      mobImg: "/assets/pages/home/hero-slider-1.png",
     },
   ];
 
   const dataForTopSlider = [
     {
-      img: "./assets/pages/home/home-top-slider-1.png",
-      mobImg: "./assets/pages/home/home-top-slider-1.png",
+      img: "/assets/pages/home/home-top-slider-1.png",
+      mobImg: "/assets/pages/home/home-top-slider-1.png",
     },
     {
-      img: "./assets/pages/home/home-top-slider-1.png",
-      mobImg: "./assets/pages/home/home-top-slider-1.png",
+      img: "/assets/pages/home/home-top-slider-1.png",
+      mobImg: "/assets/pages/home/home-top-slider-1.png",
     },
     {
-      img: "./assets/pages/home/home-top-slider-1.png",
-      mobImg: "./assets/pages/home/home-top-slider-1.png",
+      img: "/assets/pages/home/home-top-slider-1.png",
+      mobImg: "/assets/pages/home/home-top-slider-1.png",
     },
   ];
 
   const dataForBottomSlider = [
     {
-      img: "./assets/pages/home/home-bottom-slider-1.png",
-      mobImg: "./assets/pages/home/home-bottom-slider-1.png",
+      img: "/assets/pages/home/home-bottom-slider-1.png",
+      mobImg: "/assets/pages/home/home-bottom-slider-1.png",
     },
     {
-      img: "./assets/pages/home/home-bottom-slider-1.png",
-      mobImg: "./assets/pages/home/home-bottom-slider-1.png",
+      img: "/assets/pages/home/home-bottom-slider-1.png",
+      mobImg: "/assets/pages/home/home-bottom-slider-1.png",
     },
     {
-      img: "./assets/pages/home/home-bottom-slider-1.png",
-      mobImg: "./assets/pages/home/home-bottom-slider-1.png",
+      img: "/assets/pages/home/home-bottom-slider-1.png",
+      mobImg: "/assets/pages/home/home-bottom-slider-1.png",
     },
   ];
 
@@ -64,32 +64,32 @@ const Home = () => {
       heading: `Industrial, logistics real estate sector most resilient asset class: JLL`,
       text: `The demand for e-commerce and pharmaceutical services have ensured that India’s industrial and logistics real estate industry has remained the most resilient asset class in the first quarter of 2020.`,
       url: `/`,
-      img: `./assets/pages/home/project-1.png`,
-      imgMob: `./assets/pages/home/project-1.png`,
+      img: `/assets/pages/home/project-1.png`,
+      imgMob: `/assets/pages/home/project-1.png`,
       imgAlt: ``,
     },
     {
       heading: `Industrial, logistics real estate sector most resilient asset class: JLL`,
       text: `The demand for e-commerce and pharmaceutical services have ensured that India’s industrial and logistics real estate industry has remained the most resilient asset class in the first quarter of 2020.`,
       url: `/`,
-      img: `./assets/pages/home/project-1.png`,
-      imgMob: `./assets/pages/home/project-1.png`,
+      img: `/assets/pages/home/project-1.png`,
+      imgMob: `/assets/pages/home/project-1.png`,
       imgAlt: ``,
     },
     {
       heading: `Industrial, logistics real estate sector most resilient asset class: JLL`,
       text: `The demand for e-commerce and pharmaceutical services have ensured that India’s industrial and logistics real estate industry has remained the most resilient asset class in the first quarter of 2020.`,
       url: `/`,
-      img: `./assets/pages/home/project-1.png`,
-      imgMob: `./assets/pages/home/project-1.png`,
+      img: `/assets/pages/home/project-1.png`,
+      imgMob: `/assets/pages/home/project-1.png`,
       imgAlt: ``,
     },
     {
       heading: `Industrial, logistics real estate sector most resilient asset class: JLL`,
       text: `The demand for e-commerce and pharmaceutical services have ensured that India’s industrial and logistics real estate industry has remained the most resilient asset class in the first quarter of 2020.`,
       url: `/`,
-      img: `./assets/pages/home/project-1.png`,
-      imgMob: `./assets/pages/home/project-1.png`,
+      img: `/assets/pages/home/project-1.png`,
+      imgMob: `/assets/pages/home/project-1.png`,
       imgAlt: ``,
     },
   ];
@@ -98,62 +98,62 @@ const Home = () => {
     {
       year: 2019,
       heading: "Heading 1",
-      img: "./assets/logo.png",
+      img: "/assets/logo.png",
     },
     {
       year: 2018,
       heading: "Heading 2",
-      img: "./assets/logo.png",
+      img: "/assets/logo.png",
     },
     {
       year: 2017,
       heading: "Heading 3",
-      img: "./assets/logo.png",
+      img: "/assets/logo.png",
     },
     {
       year: 2019,
       heading: "Heading 1",
-      img: "./assets/logo.png",
+      img: "/assets/logo.png",
     },
     {
       year: 2018,
       heading: "Heading 2",
-      img: "./assets/logo.png",
+      img: "/assets/logo.png",
     },
     {
       year: 2017,
       heading: "Heading 3",
-      img: "./assets/logo.png",
+      img: "/assets/logo.png",
     },
     {
       year: 2019,
       heading: "Heading 1",
-      img: "./assets/logo.png",
+      img: "/assets/logo.png",
     },
     {
       year: 2018,
       heading: "Heading 2",
-      img: "./assets/logo.png",
+      img: "/assets/logo.png",
     },
     {
       year: 2017,
       heading: "Heading 3",
-      img: "./assets/logo.png",
+      img: "/assets/logo.png",
     },
     {
       year: 2019,
       heading: "Heading 1",
-      img: "./assets/logo.png",
+      img: "/assets/logo.png",
     },
     {
       year: 2018,
       heading: "Heading 2",
-      img: "./assets/logo.png",
+      img: "/assets/logo.png",
     },
     {
       year: 2017,
       heading: "Heading 3",
-      img: "./assets/logo.png",
+      img: "/assets/logo.png",
     },
   ];
 
@@ -197,10 +197,10 @@ const Home = () => {
         <div className="img-container">
           <picture>
             <source
-              srcSet="./assets/pages/home/how-it-started.png"
+              srcSet="/assets/pages/home/how-it-started.png"
               media="(max-width: 750px)"
             />
-            <img src="./assets/pages/home/how-it-started.png" alt="" />
+            <img src="/assets/pages/home/how-it-started.png" alt="" />
           </picture>
         </div>
 
@@ -217,8 +217,8 @@ const Home = () => {
       <div style={{ maxWidth: "800px", margin: "0 auto", padding: "3rem 0" }}>
         <DisplayImg
           data={{
-            img: "./assets/pages/home/display-img.png",
-            mobImg: "./assets/pages/home/display-img.png",
+            img: "/assets/pages/home/display-img.png",
+            mobImg: "/assets/pages/home/display-img.png",
           }}
         />
       </div>
@@ -242,7 +242,7 @@ const Home = () => {
                   key={index}
                   className={`img-container grid-item grid-item-${index}`}
                 >
-                  <img src={`./assets/pages/home/${img}`}></img>
+                  <img src={`/assets/pages/home/${img}`}></img>
                 </div>
               )
             )}
@@ -261,10 +261,10 @@ const Home = () => {
             <div className="img-container">
               <picture>
                 <source
-                  srcSet="./assets/pages/home/leadership-guy.png"
+                  srcSet="/assets/pages/home/leadership-guy.png"
                   media="(max-width: 750px)"
                 ></source>
-                <img src="./assets/pages/home/leadership-guy.png" alt=""></img>
+                <img src="/assets/pages/home/leadership-guy.png" alt=""></img>
               </picture>
             </div>
 
@@ -295,7 +295,7 @@ const Home = () => {
                 key={index}
                 className={`img-container grid-item grid-item-${index}`}
               >
-                <img src={`./assets/pages/home/${img}`}></img>
+                <img src={`/assets/pages/home/${img}`}></img>
               </div>
             ))}
           </div>

@@ -1,15 +1,15 @@
 import React from "react";
 import HeroSlider from "../Utilities/HeroSlider";
 
-export const About = () => {
+const About = () => {
   const dataHeroSlider = [
     {
-      img: "./assets/pages/about/hero-slider-1.png",
-      mobImg: "./assets/pages/about/hero-slider-1.png",
+      img: "/assets/pages/about/hero-slider-1.png",
+      mobImg: "/assets/pages/about/hero-slider-1.png",
     },
     {
-      img: "./assets/pages/about/hero-slider-1.png",
-      mobImg: "./assets/pages/about/hero-slider-1.png",
+      img: "/assets/pages/about/hero-slider-1.png",
+      mobImg: "/assets/pages/about/hero-slider-1.png",
     },
   ];
 
@@ -66,7 +66,7 @@ export const About = () => {
           </div>
 
           <div className="img-container small-container offset-down">
-            <img src="./assets/pages/about/about.png" alt="about us image" />
+            <img src="/assets/pages/about/about.png" alt="about us image" />
           </div>
         </div>
       </article>
@@ -101,7 +101,7 @@ export const About = () => {
           </div>
 
           <div className="img-container small-container offset-down">
-            <img src="./assets/pages/about/vision.png" alt="about us image" />
+            <img src="/assets/pages/about/vision.png" alt="about us image" />
           </div>
         </div>
       </article>
@@ -141,7 +141,7 @@ export const About = () => {
 
           <div className="img-container small-container offset-down">
             <img
-              src="./assets/pages/about/brand-mission.png"
+              src="/assets/pages/about/brand-mission.png"
               alt="about us image"
             />
           </div>
@@ -202,7 +202,7 @@ export const About = () => {
           </div>
 
           <div className="img-container small-container offset-down">
-            <img src="./assets/pages/about/vision.png" alt="about us image" />
+            <img src="/assets/pages/about/vision.png" alt="about us image" />
           </div>
         </div>
       </article>
@@ -218,3 +218,5 @@ export const About = () => {
     </div>
   );
 };
+
+export default About;

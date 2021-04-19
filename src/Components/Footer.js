@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import IconLink from "./mini-comps/IconLink";
+import { HashLink as Link } from "react-router-hash-link";
+import IconLink from "./Utilities/mini-comps/IconLink";
 
 const Footer = () => {
   return (
@@ -22,7 +22,7 @@ const Footer = () => {
       <div className="icons-container social-icons-container">
         <IconLink
           data={{
-            icon: "./assets/social-icon-facebook.png",
+            icon: "/assets/social-icon-facebook.png",
             title: "Facebook",
             url: "https://www.fb.com",
           }}
@@ -30,7 +30,7 @@ const Footer = () => {
 
         <IconLink
           data={{
-            icon: "./assets/social-icon-insta.png",
+            icon: "/assets/social-icon-insta.png",
             title: "Instagram",
             url: "https://www.instagram.com",
           }}
@@ -38,7 +38,7 @@ const Footer = () => {
 
         <IconLink
           data={{
-            icon: "./assets/social-icon-twitter.png",
+            icon: "/assets/social-icon-twitter.png",
             title: "Twitter",
             url: "https://www.twitter.com",
           }}
@@ -46,7 +46,7 @@ const Footer = () => {
 
         <IconLink
           data={{
-            icon: "./assets/social-icon-youtube.png",
+            icon: "/assets/social-icon-youtube.png",
             title: "Youtube",
             url: "https://www.youtube.com/",
           }}

@@ -146,7 +146,8 @@ address {
   font-style: normal;
 }
 
-a {
+a,
+.nav-link-item {
   text-decoration: none;
   color: #333;
   display: inline-block;
@@ -155,7 +156,8 @@ a {
   transition: 0.3s ease;
 }
 
-a::after {
+a::after,
+.nav-link-item::after {
   content: "";
   display: inline-block;
   height: 2px;
@@ -170,15 +172,23 @@ a::after {
   transition: 0.5s ease;
 }
 
-:is(a.btn, a.logo-container)::after {
+:is(a.btn,
+.nav-link-item.btn, a.logo-container,
+.nav-link-item.logo-container, a.btn,
+.nav-link-item.btn, a.logo-container,
+.nav-link-item.logo-container)::after {
   display: none;
 }
 
-a:focus, a:hover {
+a:focus, a:hover,
+.nav-link-item:focus,
+.nav-link-item:hover {
   color: #555;
 }
 
-a:focus::after, a:hover::after {
+a:focus::after, a:hover::after,
+.nav-link-item:focus::after,
+.nav-link-item:hover::after {
   width: 100%;
 }
 
@@ -568,4 +578,46 @@ a:focus::after, a:hover::after {
           transform: translate(-50%, -50%);
   -webkit-animation: scroll-fade-up 2s ease infinite;
           animation: scroll-fade-up 2s ease infinite;
+}
+
+.heading-with-top-bottom-lines {
+  position: relative;
+  margin: 2rem 0;
+  max-width: 45ch;
+}
+
+.heading-with-top-bottom-lines::after, .heading-with-top-bottom-lines::before {
+  position: absolute;
+  left: 0;
+  content: "";
+  display: block;
+  background: #ef9360;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 20rem;
+  height: 0.5rem;
+}
+
+.heading-with-top-bottom-lines::before {
+  top: -1rem;
+}
+
+.heading-with-top-bottom-lines::after {
+  bottom: -1rem;
+  max-width: 15rem;
+}
+
+.custom-bullet {
+  padding-left: 2rem;
+}
+
+.custom-bullet::before {
+  content: "";
+  background-color: #000;
+  display: inline-block;
+  border-radius: 4px;
+  margin-right: 1rem;
+  margin-left: -2rem;
+  height: 1.5rem;
+  width: 0.8rem;
 }
