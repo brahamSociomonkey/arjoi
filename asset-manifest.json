@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/arjoi/static/css/main.4a6b370e.chunk.css",
-    "main.js": "/arjoi/static/js/main.0c1592dd.chunk.js",
-    "main.js.map": "/arjoi/static/js/main.0c1592dd.chunk.js.map",
-    "runtime-main.js": "/arjoi/static/js/runtime-main.0afb0247.js",
-    "runtime-main.js.map": "/arjoi/static/js/runtime-main.0afb0247.js.map",
+    "main.css": "/arjoi/static/css/main.ce1ad32f.chunk.css",
+    "main.js": "/arjoi/static/js/main.dd9069e2.chunk.js",
+    "main.js.map": "/arjoi/static/js/main.dd9069e2.chunk.js.map",
+    "runtime-main.js": "/arjoi/static/js/runtime-main.d39f37f2.js",
+    "runtime-main.js.map": "/arjoi/static/js/runtime-main.d39f37f2.js.map",
     "static/css/2.521dee2e.chunk.css": "/arjoi/static/css/2.521dee2e.chunk.css",
-    "static/js/2.bb487096.chunk.js": "/arjoi/static/js/2.bb487096.chunk.js",
-    "static/js/2.bb487096.chunk.js.map": "/arjoi/static/js/2.bb487096.chunk.js.map",
-    "static/js/3.e479192b.chunk.js": "/arjoi/static/js/3.e479192b.chunk.js",
-    "static/js/3.e479192b.chunk.js.map": "/arjoi/static/js/3.e479192b.chunk.js.map",
+    "static/js/2.9964b766.chunk.js": "/arjoi/static/js/2.9964b766.chunk.js",
+    "static/js/2.9964b766.chunk.js.map": "/arjoi/static/js/2.9964b766.chunk.js.map",
+    "static/js/3.ae77bb6c.chunk.js": "/arjoi/static/js/3.ae77bb6c.chunk.js",
+    "static/js/3.ae77bb6c.chunk.js.map": "/arjoi/static/js/3.ae77bb6c.chunk.js.map",
     "index.html": "/arjoi/index.html",
     "static/css/2.521dee2e.chunk.css.map": "/arjoi/static/css/2.521dee2e.chunk.css.map",
-    "static/css/main.4a6b370e.chunk.css.map": "/arjoi/static/css/main.4a6b370e.chunk.css.map",
-    "static/js/2.bb487096.chunk.js.LICENSE.txt": "/arjoi/static/js/2.bb487096.chunk.js.LICENSE.txt",
+    "static/css/main.ce1ad32f.chunk.css.map": "/arjoi/static/css/main.ce1ad32f.chunk.css.map",
+    "static/js/2.9964b766.chunk.js.LICENSE.txt": "/arjoi/static/js/2.9964b766.chunk.js.LICENSE.txt",
     "static/media/animations.css": "/arjoi/static/media/Bjorn Regular.35137ded.otf",
     "static/media/index.css": "/arjoi/static/media/bg-main.7ee5f494.png",
     "static/media/slick-theme.css": "/arjoi/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.0afb0247.js",
+    "static/js/runtime-main.d39f37f2.js",
     "static/css/2.521dee2e.chunk.css",
-    "static/js/2.bb487096.chunk.js",
-    "static/css/main.4a6b370e.chunk.css",
-    "static/js/main.0c1592dd.chunk.js"
+    "static/js/2.9964b766.chunk.js",
+    "static/css/main.ce1ad32f.chunk.css",
+    "static/js/main.dd9069e2.chunk.js"
   ]
 }
