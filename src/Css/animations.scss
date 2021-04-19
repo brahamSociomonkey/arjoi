@@ -1,0 +1,12 @@
+@import "./variables";
+
+@keyframes scroll-fade-up {
+  from {
+    top: 10%;
+  }
+
+  to {
+    top: 100%;
+    opacity: 0;
+  }
+}
