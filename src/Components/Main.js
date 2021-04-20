@@ -11,7 +11,7 @@ import Community from "./Pages/Businesses/Community";
 const Main = () => {
   return (
     <main>
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
 
       <Switch>
         <Route exact path="/about" component={About} />
