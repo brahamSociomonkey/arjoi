@@ -7,17 +7,9 @@ import Timeline from "../Utilities/mini-comps/Timeline";
 import HeroSlider from "../Utilities/HeroSlider";
 import Projects from "../Utilities/Projects";
 import SliderContainer from "../Utilities/SliderContainer";
-// import alldata from "../allData/allData";
+import dataForProjects from "../allData/data/dataForProjects";
 
 const Home = () => {
-  // const {
-  //   dataHeroSlider,
-  //   dataForTimeLine,
-  //   dataForProjects,
-  //   dataForTopSlider,
-  //   dataForBottomSlider,
-  // } = alldata.homeData;
-
   const dataHeroSlider = [
     {
       img: "/assets/pages/home/hero-slider-1.png",
@@ -56,41 +48,6 @@ const Home = () => {
     {
       img: "/assets/pages/home/home-bottom-slider-1.png",
       mobImg: "/assets/pages/home/home-bottom-slider-1.png",
-    },
-  ];
-
-  const dataForProjects = [
-    {
-      heading: `Industrial, logistics real estate sector most resilient asset class: JLL`,
-      text: `The demand for e-commerce and pharmaceutical services have ensured that India’s industrial and logistics real estate industry has remained the most resilient asset class in the first quarter of 2020.`,
-      url: `/`,
-      img: `/assets/pages/home/project-1.png`,
-      imgMob: `/assets/pages/home/project-1.png`,
-      imgAlt: ``,
-    },
-    {
-      heading: `Industrial, logistics real estate sector most resilient asset class: JLL`,
-      text: `The demand for e-commerce and pharmaceutical services have ensured that India’s industrial and logistics real estate industry has remained the most resilient asset class in the first quarter of 2020.`,
-      url: `/`,
-      img: `/assets/pages/home/project-1.png`,
-      imgMob: `/assets/pages/home/project-1.png`,
-      imgAlt: ``,
-    },
-    {
-      heading: `Industrial, logistics real estate sector most resilient asset class: JLL`,
-      text: `The demand for e-commerce and pharmaceutical services have ensured that India’s industrial and logistics real estate industry has remained the most resilient asset class in the first quarter of 2020.`,
-      url: `/`,
-      img: `/assets/pages/home/project-1.png`,
-      imgMob: `/assets/pages/home/project-1.png`,
-      imgAlt: ``,
-    },
-    {
-      heading: `Industrial, logistics real estate sector most resilient asset class: JLL`,
-      text: `The demand for e-commerce and pharmaceutical services have ensured that India’s industrial and logistics real estate industry has remained the most resilient asset class in the first quarter of 2020.`,
-      url: `/`,
-      img: `/assets/pages/home/project-1.png`,
-      imgMob: `/assets/pages/home/project-1.png`,
-      imgAlt: ``,
     },
   ];
 

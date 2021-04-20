@@ -459,43 +459,6 @@ main {
   text-align: center;
 }
 
-.page-business .hero-img-with-txt {
-  position: relative;
-}
-
-.page-business .hero-img-with-txt .img-container {
-  max-height: 100vh;
-  overflow: hidden;
-}
-
-.page-business .hero-img-with-txt .txt-container {
-  color: #fff;
-  position: absolute;
-  top: 40%;
-  left: 5%;
-  -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
-  max-width: 50ch;
-}
-
-.page-business .hero-img-with-txt .txt-container h2 {
-  font-family: "Bjorn Regular";
-}
-
-.page-business .hero-img-with-txt .txt-container h2::before {
-  content: "";
-  display: inline-block;
-  background-color: #fff;
-  border-radius: 4px;
-  margin-right: 0.5rem;
-  height: 1.5rem;
-  width: 0.8rem;
-}
-
-.page-business .hero-img-with-txt .txt-container > * {
-  margin: 0;
-}
-
 .page-business .page-content {
   padding: 0 5% !important;
 }
@@ -615,6 +578,33 @@ main {
 .page-business .image-grid-area .images-grid-container .images-grid-item-3 {
   grid-column: 2/-1;
   grid-row: 2/-1;
+}
+
+.page-blogs article {
+  padding-top: 3rem;
+}
+
+.page-blogs article h3 {
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+.page-blogs .projects-container {
+  padding: 2rem 5%;
+}
+
+.page-blogs .projects-container .projects-slider-container .project-item .grid-container {
+  position: relative;
+}
+
+.page-blogs .projects-container .projects-slider-container .project-item .grid-container .txt-container {
+  position: absolute;
+  padding: 2rem 5%;
+  height: 100%;
+  max-width: 50%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: left;
 }
 
 footer {

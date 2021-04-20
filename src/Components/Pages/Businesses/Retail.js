@@ -11,6 +11,7 @@ const Retail = () => {
     img: "/assets/pages/business/retail/hero-img.png",
     mobImg: "/assets/pages/business/retail/hero-img.png",
   };
+  
   const martDisplayImgData = {
     img: "/assets/pages/business/retail/mart.png",
     mobImg: "/assets/pages/business/retail/mart.png",
