@@ -3,6 +3,7 @@ import { HashLink as Link } from "react-router-hash-link";
 import DisplayImg from "../../Utilities/mini-comps/DisplayImg";
 import HeroImgWithTxt from "../../Utilities/mini-comps/HeroImgWithTxt";
 import ImagesGrid from "../../Utilities/mini-comps/ImagesGrid";
+import NewsLetter from "../../Utilities/mini-comps/NewsLetter";
 
 const Community = () => {
   const dataForHeroImg = {
@@ -108,6 +109,10 @@ const Community = () => {
           </div>
         </div>
       </section>
+
+      {/* newsletter  */}
+      <br />
+      <NewsLetter />
     </div>
   );
 };

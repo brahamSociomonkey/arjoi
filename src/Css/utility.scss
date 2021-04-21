@@ -392,6 +392,28 @@ a,
   }
 }
 
+// form error 
+.form-has-error {
+  pointer-events: none;
+  display: block;
+  color: #111;
+  font-size: 1.2rem;
+  position: fixed;
+  z-index: 1000;
+  top: 5rem;
+  text-align: center;
+  width: 100%;
+  background: #ff81816b;
+  padding: 2rem 0;
+  transition: 0.3s ease;
+}
+
+.form-fade-in-up {
+  transition: 0.3s ease;
+  transform: translateY(-3rem);
+  opacity: 0;
+}
+
 // newsletter-contanier
 .newsletter-contanier {
   background-color: #e37a40;

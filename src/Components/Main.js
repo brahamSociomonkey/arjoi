@@ -8,6 +8,7 @@ import RealEstate from "./Pages/Businesses/RealEstate";
 import Retail from "./Pages/Businesses/Retail";
 import Community from "./Pages/Businesses/Community";
 import Blogs from "./Pages/Blogs";
+import Contact from "./Pages/Contact";
 
 const Main = () => {
   return (
@@ -21,6 +22,7 @@ const Main = () => {
         <Route exact path="/business/community" component={Community} />
         <Route exact path="/community" component={Community} />
         <Route exact path="/blogs" component={Blogs} />
+        <Route exact path="/contact" component={Contact} />
         <Route exact path="/home" component={Home} />
         <Route exact path="/" component={Home} />
         <Route path="*" component={NotFoundPage} />

@@ -89,9 +89,9 @@ export const Header = () => {
               <Link
                 onClick={handleLinkClick}
                 className="nav-link"
-                to="/careers"
+                to="/blogs"
               >
-                CAREERS
+                BLOGS
               </Link>
             </li>
             <li className="nav-link-item">

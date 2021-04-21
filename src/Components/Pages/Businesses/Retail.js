@@ -2,6 +2,7 @@ import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import DisplayImg from "../../Utilities/mini-comps/DisplayImg";
 import HeroImgWithTxt from "../../Utilities/mini-comps/HeroImgWithTxt";
+import NewsLetter from "../../Utilities/mini-comps/NewsLetter";
 
 const Retail = () => {
   const dataForHeroImg = {
@@ -11,7 +12,7 @@ const Retail = () => {
     img: "/assets/pages/business/retail/hero-img.png",
     mobImg: "/assets/pages/business/retail/hero-img.png",
   };
-  
+
   const martDisplayImgData = {
     img: "/assets/pages/business/retail/mart.png",
     mobImg: "/assets/pages/business/retail/mart.png",
@@ -84,6 +85,10 @@ const Retail = () => {
           </div>
         </div>
       </section>
+
+      {/* newsletter  */}
+      <br />
+      <NewsLetter />
     </div>
   );
 };

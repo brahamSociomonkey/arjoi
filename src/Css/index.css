@@ -607,6 +607,42 @@ main {
   text-align: left;
 }
 
+.page-contact .contact-form-container .form-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  background-color: #fff;
+  color: #000;
+  border-radius: 15px;
+}
+
+.page-contact .contact-form-container .form-container form {
+  padding: 10%;
+}
+
+.page-contact .contact-form-container .form-container form input {
+  color: #000 !important;
+}
+
+.page-contact .contact-form-container .form-container form input::-webkit-input-placeholder {
+  color: #000 !important;
+  opacity: 0.3;
+}
+
+.page-contact .contact-form-container .form-container form input:-ms-input-placeholder {
+  color: #000 !important;
+  opacity: 0.3;
+}
+
+.page-contact .contact-form-container .form-container form input::-ms-input-placeholder {
+  color: #000 !important;
+  opacity: 0.3;
+}
+
+.page-contact .contact-form-container .form-container form input::placeholder {
+  color: #000 !important;
+  opacity: 0.3;
+}
+
 footer {
   background-color: #fff;
   padding: 1rem 0;
