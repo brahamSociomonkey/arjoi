@@ -180,15 +180,17 @@ a::after,
   display: none;
 }
 
-a:focus, a:hover,
+a:focus, a:hover, a:active,
 .nav-link-item:focus,
-.nav-link-item:hover {
+.nav-link-item:hover,
+.nav-link-item:active {
   color: #555;
 }
 
-a:focus::after, a:hover::after,
+a:focus::after, a:hover::after, a:active::after,
 .nav-link-item:focus::after,
-.nav-link-item:hover::after {
+.nav-link-item:hover::after,
+.nav-link-item:active::after {
   width: 100%;
 }
 
@@ -229,11 +231,11 @@ a:focus::after, a:hover::after,
   border-radius: inherit;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover, .btn:focus, .btn:active {
   color: #fff;
 }
 
-.btn:hover::before, .btn:focus::before {
+.btn:hover::before, .btn:focus::before, .btn:active::before {
   width: 100%;
   background: #e37a40;
 }
@@ -315,7 +317,7 @@ a:focus::after, a:hover::after,
   background-color: #000;
 }
 
-.hero-slider-container .slider-item .txt-container .btn:hover, .hero-slider-container .slider-item .txt-container .btn:focus {
+.hero-slider-container .slider-item .txt-container .btn:hover, .hero-slider-container .slider-item .txt-container .btn:focus, .hero-slider-container .slider-item .txt-container .btn:active {
   color: #fff;
 }
 
@@ -370,7 +372,7 @@ a:focus::after, a:hover::after,
   transition: 0.3s ease-in filter;
 }
 
-.icons-container .icon:hover, .icons-container .icon:focus {
+.icons-container .icon:hover, .icons-container .icon:focus, .icons-container .icon:active {
   -webkit-filter: invert(0);
           filter: invert(0);
 }
@@ -453,8 +455,9 @@ a:focus::after, a:hover::after,
   color: rgba(255, 255, 255, 0.8);
 }
 
-.form-container form .form-item input:focus,
-.form-container form .form-item textarea:focus {
+.form-container form .form-item input:focus, .form-container form .form-item input:active,
+.form-container form .form-item textarea:focus,
+.form-container form .form-item textarea:active {
   border-color: #35004a;
 }
 
@@ -520,11 +523,11 @@ a:focus::after, a:hover::after,
   background-color: white;
 }
 
-.newsletter-contanier .form-container form .form-item .btn:hover, .newsletter-contanier .form-container form .form-item .btn:focus {
+.newsletter-contanier .form-container form .form-item .btn:hover, .newsletter-contanier .form-container form .form-item .btn:focus, .newsletter-contanier .form-container form .form-item .btn:active {
   color: #fff;
 }
 
-.newsletter-contanier .form-container form .form-item .btn:hover::before, .newsletter-contanier .form-container form .form-item .btn:focus::before {
+.newsletter-contanier .form-container form .form-item .btn:hover::before, .newsletter-contanier .form-container form .form-item .btn:focus::before, .newsletter-contanier .form-container form .form-item .btn:active::before {
   background-color: #222;
 }
 
@@ -744,4 +747,11 @@ a:focus::after, a:hover::after,
 
 .main-img-grid-container .main-image-grid-item-0 .txt-container {
   color: #000;
+}
+
+@media (max-width: 750px) {
+  .main-img-grid-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }

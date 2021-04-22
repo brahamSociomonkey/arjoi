@@ -34,6 +34,13 @@ export const Header = () => {
   return (
     <>
       <HamIcon handleHamClick={handleHamClick} />
+      <div className="fixed-mob-logo">
+        <div className="nav-link-item">
+          <Link onClick={handleLinkClick} className="logo-container" to="/">
+            <img src="/assets/logo.png" alt="Arjoi logo"></img>
+          </Link>
+        </div>
+      </div>
 
       <header ref={headerRef}>
         <nav>
@@ -86,11 +93,7 @@ export const Header = () => {
               </Link>
             </li>
             <li className="nav-link-item">
-              <Link
-                onClick={handleLinkClick}
-                className="nav-link"
-                to="/blogs"
-              >
+              <Link onClick={handleLinkClick} className="nav-link" to="/blogs">
                 BLOGS
               </Link>
             </li>
