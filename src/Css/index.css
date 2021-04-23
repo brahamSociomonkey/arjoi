@@ -256,8 +256,8 @@ main {
   border-radius: 15px;
   margin: 0 auto;
   -ms-grid-rows: 1fr;
-  -ms-grid-columns: (minmax(20rem, 1fr))[auto-fit];
-      grid-template: 1fr/repeat(auto-fit, minmax(20rem, 1fr));
+  -ms-grid-columns: (minmax(15rem, 1fr))[auto-fit];
+      grid-template: 1fr/repeat(auto-fit, minmax(15rem, 1fr));
 }
 
 #home .key-businesses .floating-items-container .floating-base .img-container {
