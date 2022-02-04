@@ -53,10 +53,10 @@ const Footer = () => {
         />
       </div>
 
-      <address>B-203, Plot-7, Sector- 10 Dwarka, New Delhi-110075</address>
+      <address>863 LG-1 Shalimar garden near gurdwara sahib, Uttar Pradesh 201005</address>
 
       <div className="mail-container">
-        <a href="mailto:hello@Arjoi.in">hello@Arjoi.in</a>
+        <a href="mailto:hello@Arjoi.in">hello@arjoigroup.in</a>
       </div>
 
       <hr />

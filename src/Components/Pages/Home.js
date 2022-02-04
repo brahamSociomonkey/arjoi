@@ -16,8 +16,8 @@ const Home = () => {
       mobImg: "/assets/pages/home/hero-slider-1.jpg",
     },
     {
-      img: "/assets/pages/home/hero-slider-1.jpg",
-      mobImg: "/assets/pages/home/hero-slider-1.jpg",
+      img: "/assets/pages/home/hero-slider-1.png",
+      mobImg: "/assets/pages/home/hero-slider-1.png",
     },
   ];
 
@@ -25,16 +25,10 @@ const Home = () => {
     {
       img: "/assets/pages/home/home-top-slider-1.png",
       mobImg: "/assets/pages/home/home-top-slider-1.png",
-    },
-    {
-      img: "/assets/pages/home/home-top-slider-1.png",
-      mobImg: "/assets/pages/home/home-top-slider-1.png",
-    },
-    {
-      img: "/assets/pages/home/home-top-slider-1.png",
-      mobImg: "/assets/pages/home/home-top-slider-1.png",
-    },
+    }
   ];
+
+  
 
   const dataForBottomSlider = [
     {
@@ -143,14 +137,24 @@ const Home = () => {
           Read More
         </Link>
       </div>
-
+      
       {/* top slider */}
       <section className="top-slider">
         <SliderContainer dataForSlider={dataForTopSlider} />
       </section>
-
+      {/* ongoing projects  */}
+      <section className="projects">
+        <div className="floating-items-container">
+          <h2 className="float float-top primary-font primary-color txt-center heading">
+          OUR BUSINESS
+          </h2>
+          <div className="floating-base">
+            <Projects data={{ dataForProjects }} />
+          </div>
+        </div>
+      </section>
       {/* how it started  */}
-      <section className="how-it-started">
+      {/* <section className="how-it-started">
         <div className="img-container">
           <picture>
             <source
@@ -168,7 +172,7 @@ const Home = () => {
           />
           <ScrollIndicator />
         </div>
-      </section>
+      </section> */}
 
       {/* display image  */}
       <div style={{ maxWidth: "800px", margin: "0 auto", padding: "3rem 0" }}>
@@ -186,7 +190,7 @@ const Home = () => {
       </section>
 
       {/* key businesses  */}
-      <section className="key-businesses">
+      {/* <section className="key-businesses">
         <div className="floating-items-container txt-center">
           <h2 className="float float-top primary-font secondary-color heading">
             KEY BUSINESSES
@@ -205,7 +209,7 @@ const Home = () => {
             )}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* leadership  */}
       <section className="leadership">
@@ -259,17 +263,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* ongoing projects  */}
-      <section className="projects">
-        <div className="floating-items-container">
-          <h2 className="float float-top primary-font primary-color txt-center heading">
-            ONGOING PROJECTS
-          </h2>
-          <div className="floating-base">
-            <Projects data={{ dataForProjects }} />
-          </div>
-        </div>
-      </section>
+      
 
       {/* newsletter  */}
       <NewsLetter />
