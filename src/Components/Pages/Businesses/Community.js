@@ -9,7 +9,7 @@ const Community = () => {
   const dataForHeroImg = {
     heading: "COMMUNITY",
     content:
-      "The Arjoi story in infrastructure began much before Independence. Today, the group is a multi-faceted player in energy, infrastructure, and realty.",
+    "Seva Karat Hoai Nahkaame Thiss ko hoth paraapath suaame. Those who do sewa with no ulterior motives simply in the love of god, they shall obtain union with god.",
     img: "/assets/pages/business/community/hero-img.png",
     mobImg: "/assets/pages/business/community/hero-img.png",
   };
@@ -51,24 +51,12 @@ const Community = () => {
         {/* infrastructure */}
         <div className="infrastructure">
           <h3 className="secondary-font heading-with-top-bottom-lines">
-            The Arjoi group has been in the Infrastructure vertical since the
-            early 1900s.
+          The Arjoi group Started with Arjoi Foundation in 2020.
           </h3>
 
           <p className="rte">
-            The story of the group's involvement in the energy sector started
-            with the commissioning of the Khopoli power station in 1910. Today,
-            the group leads the energy sector in India and supplies energy to
-            family homes as well as large cities and industries.
-            <br />
-            <br />
-            The group's prowess in leading large housing, realty and integrated
-            projects is well-known, and we boast of some of the finest
-            engineering talent in India. In the housing sector, we help families
-            access affordable housing, and at the same time engage with local,
-            state and national governments to enable infrastructure projects
-            which include space exploration to smart, sustainable, livable urban
-            spaces.
+          Covid-19, which began as a health and livelihood crisis, quickly devolved into a food and starvation disaster. We were really caught away by the predicament individuals were in, and it was extremely unpleasant and disturbing for us. That's when we decided to step in and help in this time of great need. We believe that everyone deserves a full life and that no one should go hungry. As a result, we started giving away free food rations to those in need, which proved to be a prudent and kind decision. We felt so accomplished and relieved that we decided to continue our work and assist the country's poor in coping with the food issue.
+            
           </p>
         </div>
         <br />
@@ -76,22 +64,14 @@ const Community = () => {
         {/* highlights */}
         <div className="highlights">
           <h3 className="secondary-font heading-with-top-bottom-lines">
-            Business Highlights FY 2017-2018
+          About us inniciative
           </h3>
 
           <div className="rte">
             <p className="custom-bullet">
-              Tata Power monetised non-core investments in Telecom and Defence
-              to deleverage the balance sheet and renewed focus on Renewables
-              and Distribution opportunities under a new CEO
+            The Arjoi Foundation supports the Arjoi Group's efforts to achieve critical milestones and exceptional development. The Arjoi Foundation has been inspired by our spiritual Gurus, parents, and family heritage. It all started with our dear father's idea that one should aid the less fortunate and that feeding the hungry is the best of all charities. The Arjoi Foundation was founded on the belief that "you have not lived until you have done something for someone who can never repay you," which was inspired by him. During this difficult period of the Covid pandemic, we have directly and indirectly supported society and vulnerable areas, as well as providing financing to non-governmental organisations (NGOs) that address the needs of the underprivileged, so indirectly supporting individuals.
             </p>
-            <p className="custom-bullet">
-              Tata Sons committed Rs 2,500 crore equity in Tata Housing and TRIL
-              to deleverage the companies and infuse capital for committed
-              projects. New leadership teams are in place in both companies with
-              a strategic roadmap for real estate as well as infrastructure
-              verticals
-            </p>
+           
           </div>
         </div>
         <br />

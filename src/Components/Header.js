@@ -76,7 +76,7 @@ export const Header = () => {
                     RETAIL
                   </Link>
                 </li>
-                <li className="nav-link-item">
+                {/* <li className="nav-link-item">
                   <Link
                     onClick={handleLinkClick}
                     className="nav-link"
@@ -84,7 +84,7 @@ export const Header = () => {
                   >
                     COMMUNITY
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li className="nav-link-item">

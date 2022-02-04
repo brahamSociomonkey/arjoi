@@ -12,12 +12,12 @@ import dataForProjects from "../allData/data/dataForProjects";
 const Home = () => {
   const dataHeroSlider = [
     {
-      img: "/assets/pages/home/hero-slider-1.png",
-      mobImg: "/assets/pages/home/hero-slider-1.png",
+      img: "/assets/pages/home/hero-slider-1.jpg",
+      mobImg: "/assets/pages/home/hero-slider-1.jpg",
     },
     {
-      img: "/assets/pages/home/hero-slider-1.png",
-      mobImg: "/assets/pages/home/hero-slider-1.png",
+      img: "/assets/pages/home/hero-slider-1.jpg",
+      mobImg: "/assets/pages/home/hero-slider-1.jpg",
     },
   ];
 

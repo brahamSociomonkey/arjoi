@@ -8,7 +8,7 @@ const RealEstate = () => {
   const dataForHeroImg = {
     heading: "REAL ESTATE",
     content:
-      "The Arjoi story in infrastructure began much before Independence. Today, the group is a multi-faceted player in energy, infrastructure, and realty.",
+      "We laid our very first brick in 2009. Since then we’ve delivered more than 50 projects - everything from first homes to luxurious residences.",
     img: "/assets/pages/business/realestate/hero-img.png",
     mobImg: "/assets/pages/business/realestate/hero-img.png",
   };
@@ -26,24 +26,14 @@ const RealEstate = () => {
         {/* infrastructure */}
         <div className="infrastructure">
           <h3 className="secondary-font heading-with-top-bottom-lines">
-            The Arjoi group has been in the Infrastructure vertical since the
-            early 1900s.
+            The Arjoi group has been in the Infrastructure vertical since 2009.
           </h3>
 
           <p className="rte">
-            The story of the group's involvement in the energy sector started
-            with the commissioning of the Khopoli power station in 1910. Today,
-            the group leads the energy sector in India and supplies energy to
-            family homes as well as large cities and industries.
+          The story of the Arjoi Developers started in 2009 and we have come a long way since then. We are an innovative results-driven company with the agility to respond to the ever-changing demands of the Indian construction industry. Our work is distinguished by our unwavering commitment to designing efficiency, value creation, and client satisfaction. 
             <br />
             <br />
-            The group's prowess in leading large housing, realty and integrated
-            projects is well-known, and we boast of some of the finest
-            engineering talent in India. In the housing sector, we help families
-            access affordable housing, and at the same time engage with local,
-            state and national governments to enable infrastructure projects
-            which include space exploration to smart, sustainable, livable urban
-            spaces.
+            We have solid, outstanding statistics of completing projects on time and on budget. Our integrated development and construction capabilities allow us to take a project from concept to completion while maintaining constant communication.
           </p>
         </div>
         <br />
@@ -56,16 +46,10 @@ const RealEstate = () => {
 
           <div className="rte">
             <p className="custom-bullet">
-              Tata Power monetised non-core investments in Telecom and Defence
-              to deleverage the balance sheet and renewed focus on Renewables
-              and Distribution opportunities under a new CEO
+            Anand Niketan was a project in which we designed, executed, and sold a residential cum commercial property of over 50000 sq. ft. consisting of a total of 30 flats and 8 shops located in Shalimar Garden.
             </p>
             <p className="custom-bullet">
-              Tata Sons committed Rs 2,500 crore equity in Tata Housing and TRIL
-              to deleverage the companies and infuse capital for committed
-              projects. New leadership teams are in place in both companies with
-              a strategic roadmap for real estate as well as infrastructure
-              verticals
+            Gurudwara Singh Sabha was a project constructed and designed by us, spread across 60000 sq. ft. located in Shalimar Garden.
             </p>
           </div>
         </div>
