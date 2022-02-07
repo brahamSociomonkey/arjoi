@@ -508,7 +508,7 @@ main {
 .page-business .page-content .img-link-container {
   max-width: 1200px;
   margin: 0 auto;
-  border-radius: 20px;
+  text-align: center;
   overflow: hidden;
 }
 
