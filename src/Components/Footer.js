@@ -9,7 +9,7 @@ const Footer = () => {
 
       <div className="links-container grid-container">
         <div className="links grid-item">
-          <Link to="/company">COMPANY</Link>
+          <Link to="/about">About</Link>
         </div>
         <div className="links grid-item">
           <Link to="/work">OUR WORK</Link>

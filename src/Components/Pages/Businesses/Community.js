@@ -25,7 +25,7 @@ const Community = () => {
     },
     {
       image: "/assets/pages/business/community/grid-2.png",
-      txt: "text 2",
+      txt: "Elderly Care",
     },
     {
       image: "/assets/pages/business/community/grid-3.png",
@@ -33,7 +33,7 @@ const Community = () => {
     },
     {
       image: "/assets/pages/business/community/grid-4.png",
-      txt: "text 4",
+      txt: "Environment",
     },
   ];
 
