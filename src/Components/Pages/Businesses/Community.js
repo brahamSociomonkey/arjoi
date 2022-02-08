@@ -29,7 +29,7 @@ const Community = () => {
     },
     {
       image: "/assets/pages/business/community/grid-3.png",
-      txt: "text 3",
+      txt: "Food For All",
     },
     {
       image: "/assets/pages/business/community/grid-4.png",
