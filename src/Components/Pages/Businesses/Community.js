@@ -14,8 +14,8 @@ const Community = () => {
     mobImg: "/assets/pages/business/community/hero-img.png",
   };
   const communityDisplayImgData = {
-    img: "/assets/pages/business/community/foundation.png",
-    mobImg: "/assets/pages/business/community/foundation.png",
+    img: "/assets/pages/business/community/foundation.jpg",
+    mobImg: "/assets/pages/business/community/foundation.jpg",
   };
 
   const dataForImagesGrid = [
@@ -25,15 +25,15 @@ const Community = () => {
     },
     {
       image: "/assets/pages/business/community/grid-2.png",
-      txt: "text 2",
+      txt: "Elderly Care",
     },
     {
       image: "/assets/pages/business/community/grid-3.png",
-      txt: "text 3",
+      txt: "Food For All",
     },
     {
       image: "/assets/pages/business/community/grid-4.png",
-      txt: "text 4",
+      txt: "Environment",
     },
   ];
 

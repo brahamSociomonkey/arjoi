@@ -110,9 +110,9 @@ export const Header = () => {
               <Link
                 onClick={handleLinkClick}
                 className="menu-container"
-                to="/lol"
+                to="/contact"
               >
-                <img src="/assets/menu.png" alt="menu"></img>
+                <img src="/assets/pages/phone_mail.png" alt="menu"></img>
               </Link>
             </li>
           </ul>

@@ -15,10 +15,10 @@
 }
 
 .fixed-mob-logo {
-  position: fixed;
+  position: relative;
   display: none;
-  top: 1rem;
-  left: 1rem;
+  top: 0.1rem;
+  left: 0.1rem;
   z-index: 1000;
 }
 
@@ -508,7 +508,7 @@ main {
 .page-business .page-content .img-link-container {
   max-width: 1200px;
   margin: 0 auto;
-  border-radius: 20px;
+  text-align: center;
   overflow: hidden;
 }
 

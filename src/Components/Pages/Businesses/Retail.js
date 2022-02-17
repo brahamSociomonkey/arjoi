@@ -14,8 +14,8 @@ const Retail = () => {
   };
 
   const martDisplayImgData = {
-    img: "/assets/pages/business/retail/mart.png",
-    mobImg: "/assets/pages/business/retail/mart.png",
+    img: "/assets/pages/business/retail/mart.jpg",
+    mobImg: "/assets/pages/business/retail/mart.jpg",
   };
 
   return (

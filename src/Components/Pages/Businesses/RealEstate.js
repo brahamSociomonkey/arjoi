@@ -13,8 +13,8 @@ const RealEstate = () => {
     mobImg: "/assets/pages/business/realestate/hero-img.png",
   };
   const developersDisplayImgData = {
-    img: "/assets/pages/business/realestate/developers.png",
-    mobImg: "/assets/pages/business/realestate/developers.png",
+    img: "/assets/pages/business/realestate/developers.jpg",
+    mobImg: "/assets/pages/business/realestate/developers.jpg",
   };
 
   return (

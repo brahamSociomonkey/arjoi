@@ -122,18 +122,14 @@ const Home = () => {
       <div className="about-us floating-items-container page-width txt-center">
         <div className="floating-base txt-container">
           <p className="rte">
-            RP-Sanjiv Goenka Group, in the last few years, has grown
-            exponentially in revenue, market cap and profitability. We have made
-            all our businesses, leaders in their respective sectors. Our vision
-            is to be a dynamic conglomerate driven by sustainable growth,
-            efficiency and innovation.
+          Arjoi group is a forward-thinking group of industries in the business of real estate and affordable retail outlets. Our aim is to provide the best solutions in every sphere of business we operate in. We follow practices that are a benchmark in quality standards,  thus fostering trust and success building since our inception.
           </p>
         </div>
 
         <h2 className="float float-top primary-font primary-color heading">
           ABOUT US
         </h2>
-        <Link to="/" className="btn float float-bottom">
+        <Link to="/about" className="btn float float-bottom">
           Read More
         </Link>
       </div>
