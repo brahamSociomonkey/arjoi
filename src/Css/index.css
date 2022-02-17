@@ -15,10 +15,10 @@
 }
 
 .fixed-mob-logo {
-  position: fixed;
+  position: relative;
   display: none;
-  top: 1rem;
-  left: 1rem;
+  top: 0.1rem;
+  left: 0.1rem;
   z-index: 1000;
 }
 
