@@ -77,12 +77,12 @@ export const Header = () => {
                   </Link>
                 </li>
                 <li className="nav-link-item">
-                  <Link
+                  <a
                     className="nav-link"
                     href="https://mulethi.in/" target={"_blank"} rel={"noreferrer"}
                   >
                     MULETHI
-                  </Link>
+                  </a>
                 </li>
                 
               </ul>
