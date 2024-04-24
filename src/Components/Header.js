@@ -1,8 +1,7 @@
-
 import React, { useRef, useEffect } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import HamIcon from "./Utilities/mini-comps/HamIcon";
-import Link from "next/link";
+
 
 export const Header = () => {
   const headerRef = useRef(null);
@@ -82,8 +81,8 @@ export const Header = () => {
                   <Link
                     className="nav-link"
                     href="https://mulethi.in/"  target={"_blank"} rel={"noreferrer"}
-                  passHref>
-                   <a>MULETHI</a>
+                  >
+                   MULETHI
                   </Link>
                 </li>
                 
