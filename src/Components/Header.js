@@ -79,9 +79,9 @@ export const Header = () => {
                 <li className="nav-link-item">
                   <Link
                     className="nav-link"
-                    href="https://mulethi.in/" target={"_blank"} rel={"noreferrer"}
+                    href="https://mulethi.in/"  target={"_blank"} rel={"noreferrer"}
                   >
-                    MULETHI
+                   <a>MULETHI</a>
                   </Link>
                 </li>
                 
