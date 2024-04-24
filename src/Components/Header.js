@@ -78,13 +78,13 @@ export const Header = () => {
                   </Link>
                 </li>
                 <li className="nav-link-item">
-                  <Link
+                      {/*<Link
                     className="nav-link"
                     href="https://mulethi.in/"  target={"_blank"} rel={"noreferrer"}
                   >
                    MULETHI
-                  </Link>
-                      <a href="https://mulethi.in/">MULETHI</a>
+                  </Link>*/}
+                      <a href="https://mulethi.in/" target="_blank">MULETHI</a>
                 </li>
                 
               </ul>
