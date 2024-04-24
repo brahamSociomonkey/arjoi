@@ -84,7 +84,7 @@ export const Header = () => {
                   >
                    MULETHI
                   </Link>*/}
-                      <a href="https://mulethi.in/" target="_blank">MULETHI</a>
+                      <a href="https://mulethi.in/">MULETHI</a>
                 </li>
                 
               </ul>
