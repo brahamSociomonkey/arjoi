@@ -71,7 +71,15 @@ export const Header = () => {
                   <Link
                     onClick={handleLinkClick}
                     className="nav-link"
-                    to="https://mulethi.in/"
+                    to="/business/retail"
+                  >
+                    RETAIL
+                  </Link>
+                </li>
+                <li className="nav-link-item">
+                  <Link
+                    className="nav-link"
+                    href="https://mulethi.in/"
                   >
                     MULETHI
                   </Link>
