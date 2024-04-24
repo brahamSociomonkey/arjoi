@@ -84,15 +84,7 @@ export const Header = () => {
                     MULETHI
                   </Link>
                 </li>
-                <li className="nav-link-item">
-                  <Link
-                    onClick={handleLinkClick}
-                    className="nav-link"
-                    to="/business/community"
-                  >
-                    COMMUNITY
-                  </Link>
-                </li> 
+                
               </ul>
             </li>
             <li className="nav-link-item">
